@@ -1,0 +1,15 @@
+app:
+    resource: "@AppBundle/Controller/DefaultController.php"
+    type:     annotation
+
+places:
+    type: rest
+    resource: "@AppBundle/Controller/PlaceController.php"
+
+users:
+    type: rest
+    resource: "@AppBundle/Controller/UserController.php"
+
+prices:
+    type: rest
+    resource: "@AppBundle/Controller/PriceController.php"

@@ -1,0 +1,21 @@
+AppBundle\Entity\Place:
+    attributes:
+        id:
+            groups: ['palce', 'price']
+        name:
+            groups: ['place', 'price']
+        address:
+            groups: ['place', 'price']
+        prices:
+            groups: ['place']
+
+AppBundle\Entity\Price:
+    attributes:
+        id:
+            groups: ['palce', 'price']
+        type:
+            groups: ['place', 'price']
+        value:
+            groups: ['place', 'price']
+        place:
+            groups: ['price']
